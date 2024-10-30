@@ -1,0 +1,26 @@
+.ycd-bootstrap-wrapper .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.countdowns-div {
+    width: 250px;
+    height: 150px;
+    border: 1px solid #CCCCCC;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #DEDEDE;
+    background-size: 100%;
+    transition: all .1s ease-in-out;
+}
+
+.countdowns-div:hover {
+    background-color: #CDCDCD;
+    transform: scale(1.05);
+}
+
+.circle-countdown {
+    background-image: url("../img/Cricle.png");
+    background-size: 100% 100%;
+}
